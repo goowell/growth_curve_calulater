@@ -34,6 +34,7 @@ def calculate_to_file(data_folder, filename):
             except exceptions.DataNotFound as e:
                 # print(e)
                 print(l['序号'], l['姓名'])
+                
                 zscore_in.append('Invalid')
             try:
                 weight_out = l['出科体重']
